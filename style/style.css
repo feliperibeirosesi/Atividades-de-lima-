@@ -1,0 +1,17 @@
+.conteiner {
+  color: peru;
+  font-size: 30px;
+}
+h2 {
+  color: blueviolet;
+}
+#casagrande {
+  background-color: rgb(138, 247, 178);
+}
+.gru h2,
+.minions li {
+  font-size: 50px;
+}
+#portal h1 ~ p {
+  color: mediumspringgreen;
+}

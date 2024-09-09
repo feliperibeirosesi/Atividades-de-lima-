@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Formulário</title>
+</head>
+
+<body>
+    <form action="#" method="get"> <!--Cria uma tag pai para fazer um formulário-->
+        <label for="nome">Nome:</label> <!--Cria um nome que fica afrente do Input-->
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required />
+        <!--Cria uma barra de escrita (text)-->
+
+        <br /><!--Pula Linha-->
+        <br />
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Digite seu email" required />
+        <!--Coloca uma barra do tipo Email, que não deixa colocar -->
+
+        <br />
+        <br />
+
+        <label for="password">Senha:</label>
+        <input type="password" name="password" id="password" />
+        <!--Coloca uma caixa de senha, onde as letras vão ficar com formato de bullet-->
+
+        <br />
+        <br />
+
+        <label for="idade">Idade:</label>
+        <input type="number" name="idade" id="idade" min="18" max="60" />
+        <!--Cria uma caixa de numeros, só pode colocar numeros-->
+
+        <br />
+        <br />
+
+        <label for="imgPerfil">Imagem Perfil:</label>
+        <input type="file" name="imgPerfil" id="imgPerfil" /> <!--Cria um botão para colocar uma imagem-->
+
+        <br />
+        <br />
+
+        <label for="imgProdutos">Imagem Produtos:</label>
+        <input type="file" name="imgProdutos" id="imgProdutos"
+            multiple /><!--Cria um botão para colocar varias imagens-->
+
+        <br />
+        <br />
+
+        <label for="phone">Telefone:</label>
+        <input type="tel" name="phone" id="phone" minlength="11" maxlength="15" />
+        <!--Coloca uma Caixa para numeros telefonicos-->
+
+        <br />
+        <br />
+
+        <label for="valorProduto">Valor:</label>
+        <input type="number" name="valorProduto" id="valorProduto" min="0" step="0.010" />
+        <!--Coloca uma caixa de numeros porém pode conter virgulas-->
+
+        <br />
+        <br />
+
+        <label for="cor_favorita">Cor favorita:</label>
+        <input type="color" name="cor_favorita" id="cor_favorita" /> <!--Cria uma Caixa de cores-->
+
+        <br />
+        <br />
+
+        <input type="checkbox" name="Basquete" id="Basquete" />
+        <label for="Basquete">Basquete</label> <!--Cria uma caixa de seleção multipla-->
+
+        <input type="checkbox" name="ping_pong" id="ping_pong" />
+        <label for="ping_pong">Ping Pong</label> <!--Cria uma caixa de seleção multipla-->
+
+        <br />
+        <br />
+
+        <input type="radio" name="sexo" id="feminino" value="feminino" />
+        <label for="feminino">Feminino</label> <!--Cria uma caixa de seleção unica-->
+
+        <input type="radio" name="sexo" id="masculino" value="masculino" />
+        <label for="masculino">Masculino</label> <!--Cria uma caixa de seleção unica-->
+
+        <br />
+        <br />
+
+        <label for="country">Pais:</label>
+        <select name="country" id="country"> <!--Cria uma caixa para selecionar algo-->
+            <option value="Brasil">Brasil</option><!--Da uma opção dentro da caixa-->
+            <option value="EUA">EUA</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Alemanha">Alemanha</option>
+        </select>
+
+        <br />
+        <br />
+
+        <label for="descricao">Descrição:</label>
+        <textarea id="descricao" name="descricao" placeholder="Digite uma breve descrição sobre você!"
+            required></textarea><!--Cria uma caixa para colocar o que quiser escrever-->
+
+        <br />
+        <br />
+
+        <input type="submit" value="Enviar Formulário" /><!--Cria um botão para enviar o formulário-->
+    </form>
+</body>
+
+</html>

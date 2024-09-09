@@ -1,0 +1,35 @@
+#nick {
+  display: flex;
+  flex-direction: column;
+}
+
+#documento form {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#documento form input {
+  width: 40%;
+  height: 20px;
+  padding: 5px;
+}
+
+#documento form button {
+  width: 80%;
+}
+
+#azinho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#sobre fieldset input {
+  width: 80%;
+  height: 20px;
+  padding: 5px;
+}
